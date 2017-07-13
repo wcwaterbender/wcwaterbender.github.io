@@ -36,8 +36,10 @@ header.masthead > .overlay {
 
 #links{
   display: block;
-  margin: auto;
-  width: 50%;
+  postion:absolute;
+  width:100%;
+  vertical-align: middle;
+  text-align: center;
 }
 
 #mail{
