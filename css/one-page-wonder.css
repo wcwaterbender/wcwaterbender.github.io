@@ -34,6 +34,11 @@ header.masthead > .overlay {
     }
 }
 
+#links{
+  display: block;
+  margin: auto;
+  width: 50%;
+}
 
 #mail{
   height: 50px;
