@@ -1,2 +1,2 @@
 # My Personal Website
-Made using Bootstrap
+I have created my personal website using Bootstrap, and it is hosted on github Pages.
