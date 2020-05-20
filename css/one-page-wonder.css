@@ -1,0 +1,83 @@
+/*!
+ * Start Bootstrap - One Page Wonder (http://startbootstrap.com/template-overviews/one-page-wonder)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-one-page-wonder/blob/master/LICENSE)
+ */
+
+body {
+    padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+    body {
+        padding-top: 56px;
+    }
+}
+
+header.masthead {
+    background: url('https://i.imgur.com/SJWwZWb.jpg') no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+header.masthead > .overlay {
+    padding: 5rem 0;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+@media (min-width: 992px) {
+    header.masthead > .overlay {
+        padding: 10rem 0;
+    }
+}
+
+
+.parleoverlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: white;
+}
+
+.container:hover .parleoverlay {
+  opacity: .95;
+}
+
+#parle_desc{
+  text-align: center;
+  padding-top: 100px;
+  padding-right: 200px;
+}
+
+
+#links{
+  display: block;
+  postion:absolute;
+  width:100%;
+  vertical-align: middle;
+  text-align: center;
+}
+
+#mail{
+  height: 50px;
+}
+
+#facebook{
+  height: 50px;
+}
+
+#github{
+  height: 50px;
+}
+#linkedin{
+  height: 50px;
+}
